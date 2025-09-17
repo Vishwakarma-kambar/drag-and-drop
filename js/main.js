@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- FORM VALIDATION ---
     if (!title) {
       alert("Task title is required!");
-      return; // Stop the function from proceeding
+      return;
     }
 
     const newTask = {
